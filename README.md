@@ -1,3 +1,5 @@
+<br/>
+
 <h3 align="center">
     <p>Vite Plugin - Optimize CSS Modules</p>
 </h3>
