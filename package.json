@@ -28,6 +28,14 @@
         "dev": "rollup -c rollup.config.js --watch",
         "build": "rollup -c rollup.config.js"
     },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Simonwep/vite-plugin-optimize-css-modules.git"
+    },
+    "bugs": {
+        "url": "https://github.com/Simonwep/vite-plugin-optimize-css-modules/issues"
+    },
+    "homepage": "https://github.com/Simonwep/vite-plugin-optimize-css-modules",
     "peerDependencies": {
         "vite": "^3.0.0"
     },
