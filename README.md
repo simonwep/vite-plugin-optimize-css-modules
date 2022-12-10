@@ -12,6 +12,14 @@
   <a href="https://github.com/Simonwep/vite-plugin-optimize-css-modules/actions/workflows/ci.yml"><img
      alt="CI Status"
      src="https://github.com/Simonwep/vite-plugin-optimize-css-modules/actions/workflows/ci.yml/badge.svg"/></a>
+  <a href="https://www.npmjs.com/package/vite-plugin-optimize-css-modules"><img
+     alt="Install count"
+     src="https://img.shields.io/npm/dm/vite-plugin-optimize-css-modules.svg"></a>
+  <img alt="Current version"
+       src="https://img.shields.io/github/tag/Simonwep/vite-plugin-optimize-css-modules.svg?color=3498DB&label=version">
+  <a href="https://github.com/sponsors/Simonwep"><img
+     alt="Support me"
+     src="https://img.shields.io/badge/github-support-3498DB.svg"></a>
 </p>
 
 ### Setup
