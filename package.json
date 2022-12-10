@@ -23,7 +23,7 @@
         "minify"
     ],
     "author": "Simon Reinisch <trash@reinisch.io>",
-    "license": "MIt",
+    "license": "MIT",
     "scripts": {
         "dev": "rollup -c rollup.config.js --watch",
         "build": "rollup -c rollup.config.js"
@@ -37,12 +37,12 @@
     },
     "homepage": "https://github.com/Simonwep/vite-plugin-optimize-css-modules",
     "peerDependencies": {
-        "vite": "^3.0.0"
+        "vite": "^4.0.0 || ^3.0.0"
     },
     "devDependencies": {
-        "@rollup/plugin-typescript": "^8.5.0",
-        "rollup": "^2.79.0",
-        "tslib": "^2.4.0",
-        "typescript": "^4.8.3"
+        "@rollup/plugin-typescript": "^10.0.1",
+        "rollup": "^3.7.2",
+        "tslib": "^2.4.1",
+        "typescript": "^4.9.4"
     }
 }
