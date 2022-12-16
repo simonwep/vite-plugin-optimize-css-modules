@@ -2,7 +2,7 @@
     "include": ["src/**/*.ts"],
     "compilerOptions": {
         "declaration": true,
-        "declarationDir": "lib",
+        "declarationDir": "types",
         "moduleResolution": "node",
         "resolveJsonModule": true,
         "noImplicitAny": true,
