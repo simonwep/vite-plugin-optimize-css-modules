@@ -1,4 +1,4 @@
-const DEFAULT_DICTIONARY = '_abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+const DEFAULT_DICTIONARY = '_-abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
 
 export const createCounter = (dictionary: string = DEFAULT_DICTIONARY) => {
     const sequence: string[] = [dictionary[0]];
