@@ -9,9 +9,9 @@
 </h6>
 
 <p align="center">
-  <a href="https://github.com/Simonwep/vite-plugin-optimize-css-modules/actions/workflows/ci.yml"><img
+  <a href="https://github.com/Simonwep/vite-plugin-optimize-css-modules/actions/workflows/main.yml"><img
      alt="CI Status"
-     src="https://github.com/Simonwep/vite-plugin-optimize-css-modules/actions/workflows/ci.yml/badge.svg"/></a>
+     src="https://github.com/Simonwep/vite-plugin-optimize-css-modules/actions/workflows/main.yml/badge.svg"/></a>
   <a href="https://www.npmjs.com/package/vite-plugin-optimize-css-modules"><img
      alt="Install count"
      src="https://img.shields.io/npm/dm/vite-plugin-optimize-css-modules.svg"></a>
