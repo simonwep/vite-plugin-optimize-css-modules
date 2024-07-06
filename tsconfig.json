@@ -1,13 +1,18 @@
 {
-    "include": ["src/**/*.ts"],
-    "compilerOptions": {
-        "declaration": true,
-        "declarationDir": "types",
-        "moduleResolution": "node",
-        "resolveJsonModule": true,
-        "noImplicitAny": true,
-        "strict": true,
-        "target": "ESNext",
-        "lib": ["DOM", "ESNext"]
-    }
+  "include": [
+    "src/**/*.ts"
+  ],
+  "compilerOptions": {
+    "declaration": true,
+    "declarationDir": "types",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "noImplicitAny": true,
+    "strict": true,
+    "target": "ESNext",
+    "lib": [
+      "DOM",
+      "ESNext"
+    ]
+  }
 }
