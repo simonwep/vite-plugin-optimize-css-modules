@@ -5,7 +5,7 @@
 </h3>
 
 <h6 align="center">
-    <p><a href="#how-does-it-work">Mangle classnames in production</a> - save up to 20% on css for free!</p>
+    <p><a href="#how-does-it-work">Mangle classnames in production</a> - save up to 30% on css and 90% of build time for free!</p>
 </h6>
 
 <p align="center">
@@ -45,6 +45,20 @@ export default defineConfig({
 ```
 
 And that's it. When running `vite build` your generated CSS should be significantly smaller.
+
+### Benchmarks
+
+Benchmarks are done against [bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/) and [materialize.css](https://materializecss.com/getting-started.html) assuming all the classes are used as css modules.
+The benchmark code is located in the [benchmarks](./benchmarks) directory.
+
+Run them by building the plugin via `npm run build` and then running `npm run benchmarks`.
+The results below are from a MacBook Air M2 with node v22.8.0.
+
+| Input                                                                            | Build Time                            | Gzip Size                                | Brotli Size                             |
+|----------------------------------------------------------------------------------|---------------------------------------|------------------------------------------|-----------------------------------------|
+| [bootstrap-5.0.2.module.css](benchmarks/fixtures/bootstrap-5.0.2.module.css)     | 525ms (_**-94.06%**_ / _**-8311ms**_) | 21.3 kB (_**-26.53%**_ / _**-7.69 kB**_) | 21.3 kB (_**-27.54%**_ / _**-6 kB**_)   |
+| [materialize-1.0.0.module.css](benchmarks/fixtures/materialize-1.0.0.module.css) | 572ms (_**-92.59%**_ / _**-7156ms**_) | 20.1 kB (_**-19.70%**_ / _**-4.93 kB**_) | 20.1 kB (_**-21.33%**_ / _**-4.3 kB**_) |
+
 
 ### How does it work?
 
