@@ -2,6 +2,10 @@ name: Main
 
 on: push
 
+permissions:
+  id-token: write
+  contents: read
+
 jobs:
   build:
     name: Build
@@ -40,8 +44,6 @@ jobs:
         with:
           node-version: 24
           registry-url: 'https://registry.npmjs.org'
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - name: Download build files
         uses: actions/download-artifact@v4
