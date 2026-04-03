@@ -5,11 +5,12 @@
   "compilerOptions": {
     "declaration": true,
     "declarationDir": "dist",
-    "moduleResolution": "node",
+    "moduleResolution": "bundler",
     "resolveJsonModule": true,
     "noImplicitAny": true,
     "strict": true,
     "target": "ESNext",
+    "rootDir": "./src",
     "lib": [
       "DOM",
       "ESNext"

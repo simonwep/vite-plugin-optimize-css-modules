@@ -52,7 +52,7 @@ Benchmarks are done against [bootstrap](https://getbootstrap.com/docs/5.0/gettin
 The benchmark code is located in the [benchmarks](./benchmarks) directory.
 
 Run them by building the plugin via `npm run build` and then running `npm run benchmarks`.
-The results below are from a MacBook Air M2 with node v22.8.0.
+The results below are from a MacBook Air M2 with node v22.8.0, ran on the 31th December 2024.
 
 | Input                                                                            | Build Time                            | Gzip Size                                | Brotli Size                             |
 |----------------------------------------------------------------------------------|---------------------------------------|------------------------------------------|-----------------------------------------|

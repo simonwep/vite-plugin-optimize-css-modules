@@ -1,7 +1,7 @@
 import {Plugin, UserConfig} from 'vite';
 import {counter} from './counter';
 
-export interface OptimizeCssModuleOptions {
+export type OptimizeCssModuleOptions = {
   dictionary?: string;
   apply?: 'build' | 'serve';
 }
